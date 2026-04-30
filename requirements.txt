@@ -1,0 +1,12 @@
+boto3==1.34.162
+botocore==1.34.162
+faker==26.0.0
+fastapi==0.112.1
+geopy==2.4.1
+pandas==2.2.2
+pyarrow==17.0.0
+pydantic==2.8.2
+pydantic-settings==2.4.0
+python-dotenv==1.0.1
+shapely==2.0.5
+uvicorn==0.30.6

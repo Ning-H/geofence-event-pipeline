@@ -1,0 +1,17 @@
+{
+  "database": "radar_pipeline",
+  "tables": [
+    {
+      "name": "raw_pings",
+      "location": "s3://radar-pipeline/raw-pings/",
+      "format": "parquet",
+      "partitions": ["year", "month", "day", "hour"]
+    },
+    {
+      "name": "geofence_events",
+      "location": "s3://radar-pipeline/geofence-events/",
+      "format": "parquet",
+      "partitions": ["year", "month", "day"]
+    }
+  ]
+}
