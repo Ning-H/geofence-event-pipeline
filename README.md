@@ -158,6 +158,4 @@ pytest
 ruff check .
 ```
 
-## Resume Bullet
 
-Built a real-time geofence event streaming pipeline using AWS Kinesis, Lambda, S3 Parquet, DynamoDB, and Athena; simulated 75+ device location pings with Shapely-based geofence entry/exit detection, multi-sink routing, Airflow daily aggregation DAGs, and an Athena analytics layer for dwell time and visit frequency queries.
